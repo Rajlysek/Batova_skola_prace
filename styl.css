@@ -18,8 +18,11 @@
 .container-obsah{
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
-    gap: 10px;
-    background-color: grey;
+    row-gap: 0px;
+
+}
+.container-obsah img{
+    width: 310px;
 }
 .container-header{
     grid-template-columns: auto auto auto
@@ -74,6 +77,9 @@
     font-size: 20px;
     text-align: center;
     background-color: #E3B976;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end:	3; ;
 
 
 }
@@ -82,4 +88,11 @@
 }
 .right_side{
 
+}
+.posts{
+    text-align: left;
+    margin-top: 10px;
+
+    font-size: 30px;
+    background-color: #AC7C2F;
 }
