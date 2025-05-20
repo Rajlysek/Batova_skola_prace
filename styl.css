@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+
+
+}
+.img-container {
+    float: left;
+    width: 0.0%;
+
+}
+.obsah-img-container {
+    width: 0.0%;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo-button{
+    width: 306px;
+    height: 250px;
+    border-radius: 180px;
+    cursor: pointer;
+
+}
+.menu-buttons{
+    border-radius: 24px;
+    background-color: #A65E2E;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 320px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.welcome-image{
+    margin-left:310px;
+    height: 255px;
+    border: none;
+    width: 1610px;
+}
+.h1{
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.obsah{
+    font-size: 20px;
+    text-align: center;
+    background-color: #E3B976;
+    float: left;
+
+}
+.left_side{
+    display:block;
+}
+.right_side{
+    margin-right:0;
+    margin-left: auto;
+    display:block;
+}
