@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-
+.header{
+    display: block;
+    background-color: grey;
+}
 .navbar{
 
 
@@ -11,6 +14,15 @@
     float: left;
     width: 0.0%;
 
+}
+.container-obsah{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    gap: 10px;
+    background-color: grey;
+}
+.container-header{
+    grid-template-columns: auto auto auto
 }
 .obsah-img-container {
     width: 0.0%;
@@ -26,6 +38,8 @@
     height: 250px;
     border-radius: 180px;
     cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 1;
 
 }
 .menu-buttons{
@@ -60,14 +74,12 @@
     font-size: 20px;
     text-align: center;
     background-color: #E3B976;
-    float: left;
+
 
 }
 .left_side{
-    display:block;
+
 }
 .right_side{
-    margin-right:0;
-    margin-left: auto;
-    display:block;
+
 }
