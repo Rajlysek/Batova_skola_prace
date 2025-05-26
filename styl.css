@@ -18,7 +18,7 @@
 .container-obsah{
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 0px;
 
 }
@@ -69,40 +69,28 @@
     border: none;
     width: 1610px;
 }
-.h1{
+.obsah h1{
     font-size: 50px;
     font-style: oblique;
     text-align: center;
+    background-color: #E3B976;
+
 }
-.obsah{
+.obsah p {
     font-size: 20px;
     text-align: center;
     background-color: #E3B976;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end:	2;
+    height: 93%;
 
 
 }
-.left_side_up{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.left_side_down{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
-
-}
+.left_side,
 .right_side{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
-}
+display: flex;
+flex-direction: column;,
+gap: 10px;}
+
+
 .posts{
     text-align: left;
     font-size: 30px;
@@ -110,5 +98,8 @@
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 1;
+    height: 100%;
+
+
 }
