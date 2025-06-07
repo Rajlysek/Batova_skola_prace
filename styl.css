@@ -14,6 +14,9 @@
     float: left;
     width: 0.0%;
 
+.obsah p{
+    text-align: left;
+}
 }
 .container-obsah{
     display: grid;
@@ -68,10 +71,9 @@
     margin-left:310px;
     height: 255px;
     border: none;
-    width: 1610px;
+    width: fit-content;
 }
 .obsah{
-    
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: auto;
@@ -90,8 +92,18 @@
     text-align: center;
     background-color: #E3B976;
     height: 92.2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.h3{
 
 
+}
+.image1{
+float: left;
+}
+.image2{
+    float: left;
 }
 .left_side,
 .right_side{
@@ -128,8 +140,24 @@
 
 }
 .footer{
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     padding: 10px;
     background-color: grey;
+    align-items: stretch;
+    display: grid;
+}
+.footer p{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
 
+
+}
+.social_link{
+    width: 20px;
+    height: 20px;
+    text-align: right;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    margin-left: 10px;
 }
