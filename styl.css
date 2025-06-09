@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .header{
     display: block;
@@ -86,7 +87,7 @@ html, body {
 .welcome-image{
     position: absolute;
     margin-left: 310px;
-    width: 100%;
+    width: 83.75%;
     height: 260px;
     object-fit: cover;
     top: 0;
@@ -98,6 +99,7 @@ html, body {
     grid-column-end: 2;
     grid-row-start: auto;
     grid-row-end: auto;
+    background-color: #E3B976;
 
 }
 
@@ -106,6 +108,7 @@ html, body {
     font-style: oblique;
     text-align: center;
     background-color: #E3B976;
+    padding: 10px
 
 
 }
@@ -187,4 +190,48 @@ float: left;
     grid-column-start: auto;
     grid-column-end: auto;
     margin-left: 10px;
+}
+div.gallery {
+    border: 1px solid #000000;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.responsive {
+    padding: 6px 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.gallery {
+    background-color: #E3B976 ;
+    align-items: center;
+
 }
