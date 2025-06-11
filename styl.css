@@ -148,9 +148,6 @@ float: left;
 .post_list{
     font-size: 30px;
     align-items: stretch;
-
-
-
 }
 .post_list li{
     margin-left: 30px;
@@ -194,12 +191,11 @@ float: left;
     margin-left: 10px;
 }
 div.gallery {
-
+    overflow: hidden;
 }
 
 div.gallery:hover {
     border: 1px solid #777;
-
 }
 
 div.gallery img {
@@ -211,7 +207,7 @@ div.gallery img {
 
 .responsive {
     padding: 6px 6px;
-    float: left;
+    float:left;
     width: 24.99999%;
 }
 
@@ -237,4 +233,8 @@ div.gallery img {
     background-color: #E3B976 ;
     align-items: center;
 
+}
+a{
+    text-decoration: none;
+    color: black;
 }
