@@ -148,6 +148,7 @@ float: left;
 .post_list{
     font-size: 30px;
     align-items: stretch;
+    padding-left: 10px;
 }
 .post_list li{
     margin-left: 30px;
